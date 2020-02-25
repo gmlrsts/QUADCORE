@@ -1,0 +1,125 @@
+{% extends "quadcoredev/base.html" %}
+
+{% block title %} MAIN MENU {% endblock %}
+
+{% block navbar %}
+ <!--Navbar-->
+    <nav class="navbar bg-info navbar-light h4" >
+
+    <a class="navbar-brand" href="#">QUADCORE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="/activity">ACTIVITIES <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">QUIZZES</a>
+            <a class="nav-item nav-link" href="#">INFOGRAPHICS</a>
+          </div>
+        </div>
+  </nav>
+{% endblock %}
+
+{% block jumbotron %}
+    <!--Jumbotron-->
+     <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">WELCOME TO QUADCORE GROUP</h1>
+            <p class="lead">GROUP WEB PORTFOLIO</p>
+            <hr class="my-2">
+            <p> Click for more info</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">CONTACT US</a>
+            </p>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+    <!--Card-->
+    <h1 id="members">G R O U P  M E M B E R S</h1>
+
+<div class="row">
+    <div class="col mx-4 my-4">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DELA CRUZ,ERNESTO</h5>
+              <p class="card-text">MAKES GROUP</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+    </div>
+
+    <div class="col mx-4 my-4">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DE JESUS, JOHN KEVIN</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+    </div>
+
+    <div class="col mx-4 my-4">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ROSATASE, GEMUEL</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+    </div>
+
+    <div class="col mx-4 my-4">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SOLIVAS, ANGELO</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+    </div>
+
+
+</div>
+
+
+
+{% endblock %}
