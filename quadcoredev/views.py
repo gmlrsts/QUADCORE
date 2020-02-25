@@ -10,8 +10,8 @@ def index(response):
     return render(response, "quadcoredev/base.html")
 
 
-def home(response):
-    return render(response, "quadcoredev/home.html")
+def index(response):
+    return render(response, "quadcoredev/index.html")
 
 
 def act(response):
