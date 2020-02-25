@@ -1,0 +1,72 @@
+{% extends 'quadcoredev/base.html' %}
+
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet"  type="text/css" href="{% static 'quadcoredev/activity.css' %}">
+
+    <section id="one">
+
+     <div class="container-fluid">
+         NUMBER ONE
+        <img src="{% static 'quadcoredev/ownpictographs.jpg' %}" alt="">
+     </div>
+
+    </section>
+
+    <section id="two">
+        <div class="container-fluid">
+           NUMBER TWO
+            <img src="{% static 'quadcoredev/petown.jpg' %}" alt="">
+           <p class="question">
+                What does the graph show in general? : Shows kind of pets owned
+
+                What are the different pets being considered? : Dogs,Cats,Fish,Rabbits,Rodents
+
+                Which shares the greatest percentage of pets? : Dogs shared the greatest
+
+                Which has the least share percentage of pets? : Rodents shared the least
+            </p>
+
+        </div>
+
+    </section>
+
+<section id="three">
+
+   <div class="container-fluid">
+           NUMBER THREE
+            <img src="{% static 'quadcoredev/sbday.jpg' %}" alt="">
+           <p class="question">
+                What does the graph show in general?  Number of birthday of students by month
+
+                Which month has the most students having a birthday with? : June
+
+                WWhich month has the least students celebrating their birthdays? : August
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <section id="fourth">
+        <div class="container-fluid">
+        Number Four
+     <img src="{% static 'quadcoredev/1.4.jpg' %}" alt="last sectiob" id = "last">
+     </div>
+
+    </section>
+
+
+    <nav>
+        <a href="#one">One</a>
+        <a href="#two">Two</a>
+        <a href="#three">Three</a>
+        <a href="#fourth">Four</a>
+
+    </nav>
+
+
+
+{% endblock %}

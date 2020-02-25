@@ -1,0 +1,37 @@
+{% include 'https://fonts.googleapis.com/css?family=Parisienne&display=swap'%}
+{%load static%}
+.CARDS{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 100px;
+    font-family: 'Kaushan Script', cursive;
+
+
+
+}
+h1{
+    font-family: 'Parisienne', cursive;
+    font-size: 70px;
+    margin-left:150px;
+    margin-top: 8px;
+      color: black;
+}
+
+body{
+
+  background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header{
+border-radius: 69px 69px 69px 69px;
+-moz-border-radius: 69px 69px 69px 69px;
+-webkit-border-radius: 69px 69px 69px 69px;
+border: 1px solid #000000;
+margin-top: 20px;
+    opacity: 0.75;
+    background-color: white;
+
+}
+
