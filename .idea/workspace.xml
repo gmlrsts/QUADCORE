@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a46b668f-4ed2-4ed9-940b-9f347d07007b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quadcoredev/templates/quadcoredev/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quadcoredev/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/quadcoredev/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quadcoredev/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quadcoredev/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +39,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\micor\Desktop\DjangoProj" />
+      <recent name="C:\Users\micor\Desktop\DjangoProj\DjangoProj" />
       <recent name="C:\Users\micor\Desktop\DjangoProj\quadcoredev\static\quadcoredev\pdfs" />
       <recent name="C:\Users\micor\Desktop\DjangoProj\quadcoredev" />
       <recent name="C:\Users\micor\Desktop\DjangoProj\static\main" />
@@ -121,6 +120,8 @@
       <workItem from="1582429688681" duration="3977000" />
       <workItem from="1582465880995" duration="3445000" />
       <workItem from="1582656819458" duration="300000" />
+      <workItem from="1582657383539" duration="205000" />
+      <workItem from="1582657611309" duration="232000" />
     </task>
     <servers />
   </component>
@@ -140,6 +141,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582656992053" />
+    <state x="584" y="114" key="CommitChangelistDialog2" timestamp="1582657934186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="584" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582657934186" />
     <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1581380667201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
