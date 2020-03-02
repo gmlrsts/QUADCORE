@@ -1,0 +1,57 @@
+{% include 'https://fonts.googleapis.com/css?family=Parisienne&display=swap'%}
+{%load static%}
+.CARDS{
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 100px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+h1{
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    margin-left:275px;
+    /*margin-top: 8px;*/
+    color: black;
+}
+
+body{
+
+  background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+#header{
+    border-radius: 69px 69px 69px 69px;
+    -moz-border-radius: 69px 69px 69px 69px;
+    -webkit-border-radius: 69px 69px 69px 69px;
+    border: 1px solid #000000;
+    opacity: 0.75;
+    background-color: pink;
+    margin-top: 20px;
+
+}
+
+/*.card*/
+/*{*/
+/*    border: none;*/
+/*}*/
+#TITLE
+{
+    margin-top: 120px;
+}
+
+.container-fluid
+{
+    margin-top: 135px;
+    margin-left: 25px;
+}
+#seven
+{
+    margin-left: 690px;
+}

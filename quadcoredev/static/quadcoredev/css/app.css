@@ -80,7 +80,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color:#fffff;
+  /*background-color:#fffff;*/
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -11372,24 +11372,28 @@ a.text-dark:focus {
 .navbar-brand
 {
     font-family: 'Oleo Script', cursive;
-    font-size: 25px;
+    font-size: 30px;
 }
 #members
 {
     text-align: center;
     letter-spacing: 30px;
+    color: white;
 }
 
 body{
     background-color: #02a8f5;
+    /*background-color: #1b1e21;*/
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .card
 {
     border-radius: 50px 50px 50px 50px;
--moz-border-radius: 50px 50px 50px 50px;
--webkit-border-radius: 50px 50px 50px 50px;
-border: 0px solid #000000;
+  -moz-border-radius: 50px 50px 50px 50px;
+  -webkit-border-radius: 50px 50px 50px 50px;
+  border: 5px solid #000000;
 }
 
 .jumbotron-fluid
